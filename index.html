@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="TeleSham - اكتشف أفضل العروض والفعاليات بالقرب منك." />
+  <title>TeleSham | عالمك من العروض يبدأ هنا</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="topline">اكتشف أحدث العروض والفعاليات في مكان واحد — مرحباً بك في TeleSham</div>
+  <header class="header">
+    <a class="brand" href="#home" aria-label="TeleSham الصفحة الرئيسية"><span class="brand-mark">◉</span><span>TeleSham</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة" aria-expanded="false">☰</button>
+    <nav class="nav" id="nav">
+      <a class="active" href="#home">الرئيسية</a><a href="#about">من نحن</a><a href="#offers">عروضنا</a><a href="#events">المواعيد والفعاليات</a><a href="#partners">شركاؤنا</a>
+    </nav>
+    <a class="btn btn-small header-cta" href="#offers">تسوق الآن</a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <span class="eyebrow">كل ما تبحث عنه في مكان واحد</span>
+        <h1>عالمك من العروض يبدأ هنا</h1>
+        <p>اكتشف أفضل العروض والخصومات، والفعاليات الترفيهية، وتجارب تسوق مميزة تناسبك في كل وقت.</p>
+        <a href="#offers" class="btn btn-light">تصفح أفضل العروض <span>←</span></a>
+      </div>
+      <a class="scroll-hint" href="#about" aria-label="انتقل للأسفل">⌄</a>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="about-copy">
+        <span class="section-kicker">منصتك لكل جديد</span>
+        <h2>من نحن في <span class="blue">TeleSham</span></h2>
+        <p>نحن منصة تجمع لك أفضل العروض والخصومات والفعاليات في مكان واحد. نساعدك على اكتشاف تجارب جديدة، وتوفير المال، والوصول إلى كل ما تحتاجه بسهولة.</p>
+        <div class="checks"><span>✓ عروض مختارة</span><span>✓ تجربة مميزة</span><span>✓ وفر أكثر</span></div>
+        <a class="btn" href="#why">تعرف علينا أكثر</a>
+      </div>
+      <div class="about-image"><img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1000&q=85" alt="متجر ملابس عصري"><div class="image-caption"><span>✦</span> الجودة والثقة أولويتنا</div></div>
+    </section>
+
+    <section class="offers section section-tint" id="offers">
+      <div class="section-heading"><h2>أفضل العروض <span class="emoji">🏷️</span></h2><p>اكتشف منتجاتنا المختارة بعناية لتوفر أكثر</p></div>
+      <div class="product-grid" id="productGrid">
+        <article class="product-card"><div class="product-image yellow"><img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=85" alt="سماعة رأس لاسلكية"><span class="badge">خصم 20%</span></div><div class="product-info"><h3>سماعة لاسلكية</h3><p>صوت واضح وتصميم مريح للاستخدام اليومي.</p><div class="product-bottom"><span class="price">499 ج.س <del>620</del></span><button class="btn btn-tiny details" data-name="سماعة لاسلكية">تفاصيل أكثر</button></div></div></article>
+        <article class="product-card"><div class="product-image violet"><img src="https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=85" alt="شاشة تلفاز ذكية"><span class="badge">عرض مميز</span></div><div class="product-info"><h3>شاشة تلفاز ذكية</h3><p>تجربة مشاهدة ممتعة بدقة صورة عالية.</p><div class="product-bottom"><span class="price">4,999 ج.س <del>5,500</del></span><button class="btn btn-tiny details" data-name="شاشة تلفاز ذكية">تفاصيل أكثر</button></div></div></article>
+        <article class="product-card"><div class="product-image blue-bg"><img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&q=85" alt="هاتف ذكي" onerror="this.src='https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&q=85'"><span class="badge">عرض جديد</span></div><div class="product-info"><h3>هاتف ذكي حديث</h3><p>أداء سريع وكاميرا رائعة في كل لحظة.</p><div class="product-bottom"><span class="price">2,999 ج.س <del>3,400</del></span><button class="btn btn-tiny details" data-name="هاتف ذكي حديث">تفاصيل أكثر</button></div></div></article>
+      </div>
+    </section>
+
+    <section class="why section" id="why"><div class="section-heading"><h2>لماذا تختارنا؟</h2><p>نقدم تجربة تسوق سهلة ومختلفة</p></div><div class="features">
+      <article class="feature"><span class="feature-icon">🎁</span><h3>عروض خاصة</h3><p>خصومات وعروض تناسب احتياجاتك.</p></article>
+      <article class="feature"><span class="feature-icon">💳</span><h3>خيارات الدفع</h3><p>طرق دفع مرنة وسهلة الاستخدام.</p></article>
+      <article class="feature"><span class="feature-icon">🤝</span><h3>خدمة موثوقة</h3><p>نهتم بتجربتك من البداية للنهاية.</p></article>
+      <article class="feature"><span class="feature-icon">🚚</span><h3>خدمات التوصيل</h3><p>نوصل اختياراتك بأمان وراحة.</p></article>
+      <article class="feature"><span class="feature-icon">🛍️</span><h3>خدمة العملاء</h3><p>فريقنا جاهز لمساعدتك دائماً.</p></article>
+    </div></section>
+
+    <section class="events section section-tint" id="events"><div class="section-heading"><h2>المواعيد والفعاليات <span class="emoji">📅</span></h2><p>كن جزءاً من أجمل التجارب واللحظات</p></div><div class="event-grid">
+      <article class="event-card"><img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=900&q=85" alt="حفل موسيقي"><div class="event-info"><h3>العروض الموسيقية</h3><p>استمتع بأجمل الأجواء والعروض الحية.</p><a class="btn btn-tiny" href="#subscribe">اعرف المزيد</a></div></article>
+      <article class="event-card"><img src="https://images.unsplash.com/photo-1506157786151-b8491531f063?auto=format&fit=crop&w=900&q=85" alt="فعالية فنية"><div class="event-info"><h3>الفعاليات الفنية</h3><p>تجارب فنية وثقافية لا تفوتها.</p><a class="btn btn-tiny" href="#subscribe">اعرف المزيد</a></div></article>
+      <article class="event-card"><img src="https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?auto=format&fit=crop&w=900&q=85" alt="مهرجان موسيقي"><div class="event-info"><h3>تجارب الترفيه الإلكترونية</h3><p>تابع أحدث التجارب والفعاليات المميزة.</p><a class="btn btn-tiny" href="#subscribe">اعرف المزيد</a></div></article>
+    </div></section>
+
+    <section class="partners section" id="partners"><div class="section-heading"><h2>شركاؤنا <span class="emoji">🤝</span></h2><p>نفخر بشراكاتنا التي تقدم لك الأفضل</p></div><div class="partner-list"><span>Vodafone</span><span>mobicom</span><span>Lebara</span><span>my clik</span><span>O.</span><span>EasyPay</span><span>Vodafone</span></div></section>
+
+    <section class="map-section" aria-label="موقعنا على الخريطة"><iframe title="خريطة الموقع" src="https://www.openstreetmap.org/export/embed.html?bbox=32.45%2C15.45%2C32.65%2C15.65&layer=mapnik" loading="lazy"></iframe><a class="map-zoom" href="https://www.openstreetmap.org/" target="_blank" rel="noreferrer">عرض الخريطة كاملة ↗</a></section>
+
+    <section class="subscribe" id="subscribe"><div><h2>ابقَ على اطلاع بأحدث العروض</h2><p>اشترك لتصلك آخر العروض والأخبار مباشرة.</p></div><form id="subscribeForm"><input type="email" id="email" placeholder="أدخل بريدك الإلكتروني" required aria-label="البريد الإلكتروني"><button class="btn btn-light" type="submit">اشترك الآن</button></form><p class="form-message" id="formMessage" aria-live="polite"></p></section>
+  </main>
+
+  <footer class="footer"><div class="footer-main"><div class="footer-brand"><a class="brand" href="#home"><span class="brand-mark">◉</span><span>TeleSham</span></a><p>تسوق الآن، اكتشف الجديد، واستمتع بتجربة مميزة.</p></div><div><h3>روابط مهمة</h3><a href="#about">من نحن</a><a href="#offers">عروضنا</a><a href="#events">الفعاليات</a></div><div><h3>تواصل معنا</h3><a href="mailto:info@example.com">✉ info@example.com</a><a href="tel:+249000000000">☎ اتصل بنا</a></div></div><div class="copyright">© <span id="year"></span> TeleSham. جميع الحقوق محفوظة.</div></footer>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>
